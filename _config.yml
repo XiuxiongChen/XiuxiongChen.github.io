@@ -23,7 +23,14 @@ repository               : "XiuxiongChen/XiuxiongChen.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "xiuxiong.png"
+  #avatar           : "xiuxiong.png"
+  img[src$="xiuxiong.png"] {
+  width: 150px;      /* 你想要的大小 */
+  height: 150px;     /* 必须与 width 相同，才能保持正方形 */
+  object-fit: cover; /* 避免变形 */
+  border-radius: 0 !important; /* 强制取消圆角 */
+}
+
   name             : "Xiuxiong Chen（陈秀雄）"
   pronouns         : # example: "she/her"  
   bio              : "Differential Geometry"
