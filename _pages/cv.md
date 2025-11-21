@@ -9,56 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- Work experience:
+---
+   - 2018-present, Professor, **[School of Mathematical Sciences](https://math.ustc.edu.cn/main.htm)**, University of Science and Technology of China.
+   - 2012-2018, Assistant Professor, Associate Professor, **[Department of Mathematics](https://www.math.wisc.edu/)**, University of Wisconsin-Madison. 
+   - 2011-2012, Research Assistant Professor, **[Simons Center for Geometry and Physics](https://scgp.stonybrook.edu/)**, SUNY at Stony Brook.
+   - 2008-2011, Instructor, **[Department of Mathematics](https://www.math.princeton.edu/)**, Princeton University.
+    
+- Education:
+---
+   - 2003-2008, PhD student, **[Department of Mathematics](https://math.ustc.edu.cn/new/main.psp)**, University of Wisconsin-Madison.  
+   - 1998-2003, Undergraduate student, **[Special class for gifted young](https://sgy.ustc.edu.cn/)**, University of Science and Technology of China.  
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**[Personal CV](https://USTCwangbing.github.io/files/CV2024.1.pdf)**
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
